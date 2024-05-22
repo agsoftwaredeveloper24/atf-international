@@ -4588,10 +4588,16 @@ textarea {
 .section-pt-120 {
   padding-top: 120px;
 }
+.section-mt-120 {
+  margin-top: 120px;
+}
 
 @media (max-width: 767.98px) {
   .section-pt-120 {
     padding-top: 100px;
+  }
+  .section-mt-120 {
+    margin-top: 120px;
   }
 }
 
@@ -6369,6 +6375,8 @@ textarea {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  /* ttt */
+  min-height: 300px;
 }
 
 @media (max-width: 1199.98px) {
