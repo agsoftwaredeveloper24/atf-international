@@ -33,8 +33,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port = 587;
 
         // Set the sender and recipient
-        $mail->setFrom('agsoftware24@hotmail.com', 'AgSoftware');
-        $mail->addAddress('agsoftware.developer24@gmail.com', 'qwerty');
+        $mail->setFrom('agsoftware24@hotmail.com', 'Support');
+        $mail->addAddress('support@atfinternational.com', 'Support');
 
         // Set email subject and body
 
